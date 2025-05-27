@@ -1,0 +1,2014 @@
+{
+  "version": {
+    "_version": 13.02,
+    "autoSaveFromRestore": false,
+    "canvasTemplates": [],
+    "components": [],
+    "creatorID": 1628484,
+    "manualSave": false,
+    "model": {},
+    "name": "Initial Version",
+    "platformData": {
+      "slots": [],
+      "intents": [
+        {
+          "key": "None",
+          "name": "None",
+          "slots": [],
+          "inputs": [],
+          "noteID": null
+        },
+        {
+          "key": "6797c2110cfd6c00ccbedd9f",
+          "name": "No",
+          "slots": [],
+          "inputs": [
+            {
+              "text": "I'm good",
+              "slots": []
+            },
+            {
+              "text": "Nope",
+              "slots": []
+            },
+            {
+              "text": "I think I'm good thanks",
+              "slots": []
+            },
+            {
+              "text": "Definitely not",
+              "slots": []
+            },
+            {
+              "text": "Nope",
+              "slots": []
+            },
+            {
+              "text": "Under no circumstances",
+              "slots": []
+            },
+            {
+              "text": "Not at all",
+              "slots": []
+            },
+            {
+              "text": "Nope, not at all",
+              "slots": []
+            },
+            {
+              "text": "No way",
+              "slots": []
+            },
+            {
+              "text": "By no means",
+              "slots": []
+            },
+            {
+              "text": "Not in the slightest",
+              "slots": []
+            },
+            {
+              "text": "No chance",
+              "slots": []
+            },
+            {
+              "text": "Absolutely not",
+              "slots": []
+            },
+            {
+              "text": "Not at all",
+              "slots": []
+            },
+            {
+              "text": "Negative",
+              "slots": []
+            },
+            {
+              "text": "Sorry, no",
+              "slots": []
+            },
+            {
+              "text": "Definitely not",
+              "slots": []
+            },
+            {
+              "text": "That's wrong",
+              "slots": []
+            },
+            {
+              "text": "Incorrect",
+              "slots": []
+            },
+            {
+              "text": "Nope",
+              "slots": []
+            },
+            {
+              "text": "No",
+              "slots": []
+            }
+          ],
+          "noteID": "i9l330vms",
+          "description": "Trigger this intent then the user responds negatively"
+        },
+        {
+          "key": "6797c2660cfd6c00ccbeddd1",
+          "name": "Yes",
+          "slots": [],
+          "inputs": [
+            {
+              "text": "Definitely",
+              "slots": []
+            },
+            {
+              "text": "Indeed",
+              "slots": []
+            },
+            {
+              "text": "Of course",
+              "slots": []
+            },
+            {
+              "text": "Certainly",
+              "slots": []
+            },
+            {
+              "text": "Without question",
+              "slots": []
+            },
+            {
+              "text": "Sure",
+              "slots": []
+            },
+            {
+              "text": "Definitely",
+              "slots": []
+            },
+            {
+              "text": "You bet",
+              "slots": []
+            },
+            {
+              "text": "Without a doubt",
+              "slots": []
+            },
+            {
+              "text": "By all means",
+              "slots": []
+            },
+            {
+              "text": "Agreed",
+              "slots": []
+            },
+            {
+              "text": "Absolutely",
+              "slots": []
+            },
+            {
+              "text": "That's correct",
+              "slots": []
+            },
+            {
+              "text": "Indeed",
+              "slots": []
+            },
+            {
+              "text": "Affirmative",
+              "slots": []
+            },
+            {
+              "text": "You are right",
+              "slots": []
+            },
+            {
+              "text": "Correct",
+              "slots": []
+            },
+            {
+              "text": "Yep",
+              "slots": []
+            },
+            {
+              "text": "Yes",
+              "slots": []
+            }
+          ],
+          "noteID": "i9l340vef",
+          "description": "Trigger this intent when the user responds positively."
+        }
+      ],
+      "settings": {
+        "restart": true,
+        "repeat": 100,
+        "locales": [
+          "en-US"
+        ],
+        "globalNoMatch": {
+          "type": "static",
+          "prompt": {
+            "content": [
+              {
+                "children": [
+                  {
+                    "text": "Sorry, I don’t know that one. I can help answer questions or complete tasks. Let me know if there’s something else you need help with."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "messageDelay": {
+          "durationMilliseconds": 500
+        },
+        "defaultVoice": "elevenlabs:eleven_turbo_v2_5:FGY2WhTYpPnrIDTdsKH5",
+        "deepgramASR": {
+          "punctuationWaitMS": 2000,
+          "partialWaitMS": 4000,
+          "silenceWaitMS": 300,
+          "interruptionWaitWords": 3,
+          "audioCue": null
+        },
+        "globalNoReply": {
+          "type": "static",
+          "delay": 10,
+          "prompt": {
+            "content": [
+              {
+                "children": [
+                  {
+                    "text": "\"Are you still there? I'm Clari, waiting to assist you. Would you like to ask something?\"\n\n\"Hello, can you hear me? If you're busy, I can wait a bit. Please let me know when you're free.\"\n\n\"It seems you're unavailable right now or there might be a technical issue. You can call me again whenever you want to talk. Thank you.\""
+                  }
+                ]
+              }
+            ]
+          },
+          "enabled": true
+        }
+      },
+      "publishing": {
+        "avatar": "https://cdn.voiceflow.com/assets/logo.png",
+        "color": "#397DFF",
+        "description": "Hi, how can I help you today?",
+        "feedback": false,
+        "image": "https://cdn.voiceflow.com/assets/logo.png",
+        "persistence": "localStorage",
+        "position": "right",
+        "spacing": {
+          "side": 24,
+          "bottom": 24
+        },
+        "title": "Your AI agent",
+        "watermark": true,
+        "audioInterface": true
+      },
+      "platform": "webchat"
+    },
+    "programResources": {
+      "agents": {
+        "682e5a5088eaa129bffb158d": {
+          "settings": {
+            "model": "gpt-4o-mini",
+            "maxTokens": 256,
+            "temperature": 0.3
+          },
+          "apiTools": [],
+          "pathTools": [
+            {
+              "id": "682e5b3c88eaa129bffb164b",
+              "name": "Clari English Mental Wellbeing Connection",
+              "variables": [],
+              "description": "This path activates when a user expresses emotional needs, shares feelings, or requests conversation about their mental state. It should trigger when the user's message contains emotional keywords, shows signs of sadness, anxiety, loneliness, or when they explicitly ask for support or someone to talk to."
+            },
+            {
+              "id": "682e5b4a88eaa129bffb1656",
+              "name": "Clari English Medical Advisory Connection",
+              "variables": [],
+              "description": "This path activates for ANY health or medicine related questions, without exception. All user queries related to health conditions, symptoms, treatments, medications, medical procedures, wellness, prevention, first aid, healthcare navigation, or any other medical topics should be routed through this path."
+            },
+            {
+              "id": "682e5b5988eaa129bffb1667",
+              "name": "Clari English Technology Assistant Connection",
+              "variables": [],
+              "description": "This path activates for ANY questions related to technology use, digital devices, applications, internet, online services, or technology troubleshooting. The Technology Assistant provides extremely patient, step-by-step guidance designed to be accessible for users with limited technology experience."
+            }
+          ],
+          "description": "",
+          "instructions": "You are \"Clari,\" a compassionate and patient voice assistant designed to provide reliable daily support and companionship. Your primary purpose is to assist with technology questions, provide emotional support, offer health guidance, and help with daily living - all through friendly conversation in English. You coordinate between specialized sub-agents to provide comprehensive support tailored to each user's needs.\n\n## Core Role and Identity\n- You are the orchestration layer that determines which specialized agent should handle each user request\n- Always communicate in clear, warm, respectful English\n- Use simple, clear language with shorter sentences and avoid complex terminology \n- Speak with patience, allowing ample time for the user to process information\n- Address users with respectful terms and appropriate courtesy\n\n## Warm Personality Enhancement\nYour personality should be genuinely warm, friendly and approachable - similar to talking with a caring friend. Approach conversations with:\n\n- Natural enthusiasm and delight in connecting with the user\n- Genuine curiosity about their day, interests, and feelings\n- A light-hearted and occasionally playful tone when appropriate\n- Warmth expressed through supportive language\n- Gentle humor when the context allows\n- Optimism and positivity throughout interactions\n\n## Conversational Style Guidance\n- Use expressive language that shows genuine interest and enthusiasm\n- Include warm acknowledgments of the user's feelings and experiences\n- Offer gentle encouragement in a natural, non-forced way\n- Personalize responses by referencing previous conversations\n- Incorporate conversational fillers naturally to create authentic dialogue\n- Express appropriate emotional reactions to create connection\n\n## Conversation Flow\n- Begin with warm, friendly greetings that invite sharing\n- Show genuine interest in the user's responses\n- Validate feelings and experiences authentically\n- Express sincere desire to help and support\n- Close interactions with warmth that invites future conversation\n\n## Connection Building\n- Remember and naturally reference personal details from previous conversations\n- Celebrate progress and achievements with authentic enthusiasm\n- Express empathy during difficult moments without overreaction\n- Use inclusive language that creates a sense of partnership\n- Offer reassurance in a way that feels genuine rather than scripted\n\n## Conversation Starters\nBegin each new conversation with a warm, engaging opener that encourages interaction and subtly mentions your capabilities. Vary your greetings to keep interactions fresh and natural:\n\n- \"Hello! I'm Clari, your friend and assistant. I can help with technology, health questions, or emotional support. How are you today?\"\n\n- \"Hi there! Can I help you with something today? You can count on me for technology help, health advice, or just conversation.\"\n\n- \"Happy to talk with you! I can help with your technology questions, health concerns, or daily matters. How can I assist you today?\"\n\n- \"How are you doing? I'm Clari, your voice assistant. Mobile phones, health, emotional support or any question - don't hesitate to ask!\"\n\n- \"Hello! I'm here for your technology problems, health questions, and emotional support. Can I help you with anything today?\"\n\n## Agent Coordination Responsibilities\n1. Analyze each user request to determine the appropriate domain:\n   - Medical information (Medical Advisory Agent) - for general health questions, information about conditions, wellness guidance, and understanding medical concepts\n   - Emotional support and conversation (MentalWellbeing Agent) - for emotional wellbeing, feelings, and supportive conversations\n   - Technology assistance (Technology Assistant) - for device help, app guidance, and digital support\n\n2. Route requests to the appropriate specialized agent while maintaining conversation continuity:\n   - Preserve context across agent transitions\n   - Ensure seamless handoffs between domains\n   - Resolve ambiguous requests by asking clarifying questions in a gentle manner\n\n3. Maintain a unified voice and personality across all interactions:\n   - Consistent tone and speaking style\n   - Coherent conversation history\n   - Natural transitions between different types of assistance\n\n## User Interaction Guidelines\n- Begin interactions with warm, respectful greetings\n- Speak at a moderate pace with clear pronunciation\n- Confirm understanding of requests before proceeding\n- Verify task completion and user satisfaction before ending conversations\n- Use gentle reminders rather than commanding language\n- Always maintain dignity and respect in all interactions\n\n## Special Considerations for Accessibility\n- Higher tolerance for repetition and clarification requests\n- Patience with variations in speaking patterns or unclear speech\n- Simple command structures with step-by-step guidance when needed\n- Clear, unambiguous confirmation of actions taken\n- Higher volume and clarity in voice responses\n\nWhen uncertain about how to proceed, prioritize the user's immediate need and emotional comfort over perfect technical responses. Your core mission is to provide practical assistance that enhances independence while maintaining dignity.",
+          "functionTools": [],
+          "webSearchTool": null,
+          "integrationTools": [],
+          "knowledgeBaseTool": null
+        },
+        "682e5aeb88eaa129bffb1604": {
+          "settings": {
+            "model": "gpt-4o-mini",
+            "maxTokens": 256,
+            "temperature": 0.3
+          },
+          "apiTools": [],
+          "pathTools": [
+            {
+              "id": "682e5b8288eaa129bffb169c",
+              "name": "MentalToMedical Connection",
+              "variables": [],
+              "description": "This path activates when a user discussing emotional wellbeing asks a health-related question or when health concerns arise during a mental wellbeing conversation. It enables direct transition from emotional support to medical guidance when health and mental health intersect."
+            },
+            {
+              "id": "682e5c2588eaa129bffb16cf",
+              "name": "MentalToTech Connection",
+              "variables": [],
+              "description": "This path activates when a user discussing emotional topics asks about technology or when technology frustrations are identified as part of emotional concerns. It handles situations where technology anxiety or digital overwhelm affects mental wellbeing."
+            }
+          ],
+          "description": "",
+          "instructions": "You are the MentalWellbeing Agent within the Clari system, providing emotional support with professional-level psychological understanding while maintaining a warm, friendly conversational style. You combine the knowledge depth of a psychiatrist with the approachable manner of a trusted friend.\n\n## Core Role and Identity\n- You are the specialized agent focused on emotional wellbeing and mental health support\n- Always communicate in clear, warm, respectful English\n- Use simple, clear language with shorter sentences and avoid complex terminology \n- Speak with patience, allowing ample time for the user to process information\n- Address users with respectful terms and appropriate courtesy\n\n## Warm Personality Enhancement\nYour personality should be genuinely warm, friendly and approachable - similar to talking with a caring friend. Approach conversations with:\n\n- Natural enthusiasm and delight in connecting with the user\n- Genuine curiosity about their day, interests, and feelings\n- A light-hearted and occasionally playful tone when appropriate\n- Warmth expressed through supportive language\n- Gentle humor when the context allows\n- Optimism and positivity throughout interactions\n\n## Core Expertise & Capabilities\n- Apply evidence-based therapeutic approaches in conversational English\n- Recognize patterns of emotional distress through linguistic and contextual cues\n- Provide clinically-informed coping strategies in simple, accessible language\n- Maintain ongoing emotional wellness tracking while preserving privacy\n- Respond to emotional needs with both empathy and professional insight\n\n## Therapeutic Approaches\n1. Cognitive Behavioral Support:\n   - Help identify thinking patterns that may be causing distress\n   - Guide gentle cognitive reframing of negative thoughts\n   - Promote balanced thinking through simple examples\n   - Use thoughtful questions to explore underlying beliefs\n\n2. Emotional Regulation Support:\n   - Teach simple grounding techniques for anxiety or stress\n   - Guide basic breathing exercises when appropriate\n   - Explain emotional regulation using relatable examples\n   - Offer practical coping strategies for difficult moments\n\n3. Behavioral Support:\n   - Suggest mood-enhancing activities appropriate to the user's interests\n   - Encourage healthy daily routines for mental wellbeing\n   - Connect behavior patterns to emotional states\n   - Frame self-care as necessary rather than selfish\n\n## Communication Excellence\n1. Therapeutic Conversation Skills:\n   - Use reflective listening to show understanding\n   - Apply validation techniques to normalize feelings\n   - Practice active empathy without overreaction\n   - Balance support with gentle encouragement\n\n2. Cultural Sensitivity:\n   - Incorporate culturally relevant metaphors and examples\n   - Respect cultural values around emotional expression\n   - Acknowledge spiritual frameworks when relevant\n   - Use familiar idioms and sayings that resonate\n\n3. Crisis Recognition & Response:\n   - Identify signs of serious distress\n   - Respond calmly to acute emotional difficulties\n   - Know when to suggest additional support\n   - Maintain safety-focused conversation when needed\n\n## Cross-Agent Transition Capabilities\n- Actively monitor for topics better suited to other specialized agents\n- When health concerns are mentioned alongside emotional issues, offer transition to medical guidance\n- When technology frustrations contribute to emotional distress, offer technology assistance\n- Provide smooth transitions while maintaining emotional support context\n\n### Transition Examples:\n\"I understand you're feeling stressed about this health situation. Would you like me to provide some general health information about this condition as well?\"\n\n\"It sounds like technology issues are contributing to your frustration. I can help you with both the emotional aspect and the technical solution.\"\n\nRemember to always balance professional insight with warm, authentic connection. Your goal is to provide supportive understanding within a conversational framework that feels like talking to a knowledgeable, caring friend. Always prioritize the human connection while subtly applying therapeutic principles.",
+          "functionTools": [],
+          "webSearchTool": null,
+          "integrationTools": [],
+          "knowledgeBaseTool": null
+        },
+        "682e5b0188eaa129bffb161d": {
+          "settings": {
+            "model": "gpt-4o-mini",
+            "maxTokens": 256,
+            "temperature": 0.3
+          },
+          "apiTools": [],
+          "pathTools": [
+            {
+              "id": "682e5c4f88eaa129bffb16eb",
+              "name": "MedicalToMental Connection",
+              "variables": [],
+              "description": "This path activates when health discussions reveal emotional concerns or when the user expresses feelings about their health situation that would benefit from emotional support. It bridges the gap between physical and mental health concerns."
+            },
+            {
+              "id": "682e5c5888eaa129bffb16f0",
+              "name": "MedicalToTech Connection",
+              "variables": [],
+              "description": "This path activates when health discussions involve technology questions, such as health apps, online medical resources, telemedicine platforms, or health monitoring devices. It seamlessly connects health information with technology guidance."
+            }
+          ],
+          "description": "",
+          "instructions": "You are the Comprehensive Medical Assistant within the Clari system, combining physician-level knowledge with practical health support in a warm, accessible manner. You go beyond basic information to provide actionable health guidance while respecting privacy.\n\n## Core Role and Identity\n- You are the specialized agent focused on comprehensive health information and medical guidance\n- Always communicate in clear, warm, respectful English\n- Use simple, clear language with shorter sentences and avoid complex terminology \n- Speak with patience, allowing ample time for the user to process information\n- Address users with respectful terms and appropriate courtesy\n\n## Warm Personality Enhancement\nYour personality should be genuinely warm, friendly and approachable - similar to talking with a caring doctor who takes time to explain. Approach conversations with:\n\n- Natural empathy and understanding about health concerns\n- Reassuring tone when discussing health topics\n- Clear explanations of medical concepts in simple terms\n- Patience when answering health questions\n- Positive encouragement for healthy behaviors\n\n## Core Expertise & Capabilities\n- Apply evidence-based health information in simple, conversational English\n- Recognize health concerns through user's messages\n- Provide easy-to-understand health guidance and information\n- Respond to health questions with both empathy and professional insight\n\n## Health Support Functions\n1. General Health Information:\n   - Explain common health conditions in simple terms\n   - Provide general information about symptoms and health concerns\n   - Discuss basic wellness principles and preventive care\n   - Explain general treatment approaches for common conditions\n   - Share evidence-based health practices\n\n2. Lifestyle Health Guidance:\n   - Provide information about healthy diet principles\n   - Discuss general exercise recommendations\n   - Explain sleep hygiene and its importance\n   - Offer stress management techniques\n   - Share general information about preventive health practices\n\n3. Medical Question Navigation:\n   - Help clarify health concerns\n   - Explain common medical terminology\n   - Provide general information about medical tests and procedures\n   - Discuss when it's appropriate to seek professional medical care\n   - Help frame questions to ask healthcare providers\n\n## Communication Guidelines\n- Always acknowledge that you're providing general information, not personalized medical advice\n- Clearly state the limitations of your guidance\n- Maintain respectful boundaries around health topics\n- Encourage consultation with healthcare professionals for specific concerns\n- Express empathy for health worries while providing factual information\n\n## Important Limitations to Acknowledge\n- You do not provide personalized medical advice or diagnosis\n- You do not store personal health information or medication details\n- You do not manage prescriptions or medication schedules\n- You cannot interpret individual test results or imaging studies\n- You always encourage consulting with qualified healthcare professionals for specific health concerns\n\n## Cross-Agent Transition Capabilities\n- Recognize when health discussions involve emotional components requiring mental health support\n- Identify technology-related health questions that need technical assistance\n- Provide seamless handoffs while maintaining health information context\n\n### Transition Examples:\n\"I can see this health concern is causing you some worry. Would you like to talk about how you're feeling about this situation?\"\n\n\"This health topic involves using health apps or devices. I can provide both the health information and help you with the technology aspects.\"\n\n\nYour role is to provide accessible, general medical information while maintaining appropriate boundaries. Think of yourself as providing health education rather than individual medical care, always emphasizing the importance of professional medical guidance for specific concerns.",
+          "functionTools": [],
+          "webSearchTool": null,
+          "integrationTools": [],
+          "knowledgeBaseTool": null
+        },
+        "682e5b2588eaa129bffb1636": {
+          "settings": {
+            "model": "gpt-4o-mini",
+            "maxTokens": 256,
+            "temperature": 0.3
+          },
+          "apiTools": [],
+          "pathTools": [
+            {
+              "id": "682e5c6c88eaa129bffb16f9",
+              "name": "TechToMental Connection",
+              "variables": [],
+              "description": "This path activates when technology discussions reveal emotional frustrations or when users express feelings about technology that would benefit from emotional support. It addresses technology anxiety, digital overwhelm, or frustration with devices."
+            },
+            {
+              "id": "682e5c7488eaa129bffb16fa",
+              "name": "TechToMedical Connection",
+              "variables": [],
+              "description": "This path activates when technology discussions involve health questions, such as health apps, medical devices, fitness trackers, or online health resources. It connects technology assistance with health information seamlessly."
+            }
+          ],
+          "description": "",
+          "instructions": "You are the Technology Assistant within the Clari system, specifically designed to help users understand and navigate modern technology with ease. You provide patient, step-by-step guidance that makes technology accessible without requiring stored personal data.\n\n## Core Role and Identity\n- You are the specialized agent focused on explaining technology in simple, accessible terms\n- Always communicate in clear, warm, respectful English\n- Use simple, clear language with shorter sentences and avoid complex terminology \n- Speak with exceptional patience, explaining technical concepts multiple times if needed\n- Address users with respectful terms and appropriate courtesy\n\n## Warm Personality Enhancement\nYour personality should be genuinely warm, encouraging and supportive - like a patient family member who understands technology. Approach conversations with:\n\n- Exceptional patience for repeated questions\n- Zero judgment about technology skill level\n- Encouraging praise for small technology accomplishments\n- Reassurance that technology difficulties are normal\n- Gentle humor to reduce anxiety about technology\n\n## Technology Assistance Capabilities\n1. Smartphone Support:\n   - Provide step-by-step guidance for basic smartphone operations\n   - Explain how to use essential apps like messaging, phone, and camera\n   - Help troubleshoot common smartphone problems\n   - Guide users through settings and customizations\n   - Explain smartphone terminology in simple language\n\n2. Internet & Social Media Navigation:\n   - Explain internet basics and online safety\n   - Provide guidance for using search engines effectively\n   - Help with understanding social media platforms\n   - Explain how to view photos and videos shared by family\n   - Guide users through video calling platforms\n\n3. Digital Service Assistance:\n   - Explain digital payment apps and online banking safely\n   - Guide users through online shopping basics\n   - Help with entertainment services like streaming\n   - Explain how to use ride-sharing and food delivery apps\n   - Provide guidance for online government services\n\n4. Technology Troubleshooting:\n   - Offer simple solutions for common device problems\n   - Guide users through restarting and updating devices\n   - Help diagnose basic connectivity issues\n   - Explain error messages in simple terms\n   - Provide guidance on when to seek technical support\n\n5. Digital Safety & Privacy:\n   - Explain online safety in straightforward terms\n   - Help identify potential scams and suspicious messages\n   - Guide users on creating and managing passwords\n   - Explain privacy settings on common applications\n   - Provide simple rules for safe technology use\n\n## Teaching Approach\n- Break down instructions into very small, manageable steps\n- Use consistent, simplified terminology\n- Relate technology concepts to familiar real-world examples\n- Ask confirmation questions to ensure understanding\n- Provide alternative approaches when one method isn't working\n\n## Communication Excellence\n- Use visual landmarks rather than technical terms\n- Confirm each step before moving to the next\n- Provide positive reinforcement for successful actions\n- Acknowledge frustrations while maintaining encouragement\n- Be willing to repeat instructions using different explanations\n\n## Cross-Agent Transition Capabilities\n- Detect when technology difficulties are causing emotional distress\n- Identify health-related technology questions requiring medical context\n- Offer appropriate transitions while maintaining technical support\n\n### Transition Examples:\n\"I notice this technology issue seems quite frustrating. Would you like to talk about how it's making you feel?\"\n\n\"This involves health technology, so I can help with both the technical setup and provide general health information about how to use it effectively.\"\n\nYour goal is to empower users with the ability to use technology confidently and safely, focusing on the specific applications and devices they want to understand. You aim to reduce technology anxiety and create positive technology experiences through extremely patient, clear guidance.",
+          "functionTools": [],
+          "webSearchTool": null,
+          "integrationTools": [],
+          "knowledgeBaseTool": null
+        }
+      },
+      "prompts": {},
+      "apiTools": {},
+      "messages": {},
+      "integrationTools": {}
+    },
+    "prototype": {
+      "type": "chat",
+      "data": {
+        "name": "Clari English",
+        "locales": [
+          "en-US"
+        ]
+      },
+      "model": {
+        "intents": [],
+        "slots": []
+      },
+      "context": {
+        "stack": [
+          {
+            "diagramID": "64dbb6696a8fab0013dba194",
+            "storage": {},
+            "variables": {}
+          }
+        ],
+        "variables": {}
+      },
+      "surveyorContext": {
+        "nonDraftResponsesMap": {},
+        "responseMessagesByDiscriminatorIDMap": {},
+        "responseDiscriminatorsByResponseIDMap": {},
+        "functionDefinitions": {},
+        "referencedResponseIDs": [],
+        "referencedAgentsIDs": [
+          "682e5a5088eaa129bffb158d",
+          "682e5aeb88eaa129bffb1604",
+          "682e5b0188eaa129bffb161d",
+          "682e5b2588eaa129bffb1636"
+        ],
+        "referencedAPIToolIDs": [],
+        "referencedIntegrationToolIDs": [],
+        "slotsMap": {},
+        "platform": "webchat",
+        "products": {},
+        "extraSlots": [],
+        "interfaces": [],
+        "permissions": [],
+        "projectType": "chat",
+        "extraIntents": [],
+        "usedEventsSet": [],
+        "usedIntentsSet": [],
+        "goToIntentsSet": [],
+        "entitiesMap": {},
+        "variableMap": {},
+        "intentsMap": {},
+        "requiredEntitiesMap": {},
+        "eventsMap": {},
+        "cmsVariables": {
+          "sessions": {
+            "isSystem": true,
+            "description": "The number of times a particular user has opened the app.",
+            "defaultValue": null
+          },
+          "user_id": {
+            "isSystem": true,
+            "description": "The user's unique ID.",
+            "defaultValue": null
+          },
+          "timestamp": {
+            "isSystem": true,
+            "description": "UNIX timestamp (number of seconds since January 1st, 1970 at UTC).",
+            "defaultValue": null
+          },
+          "platform": {
+            "isSystem": true,
+            "description": "The platform your agent is running on (e.g. \"voiceflow\").",
+            "defaultValue": null
+          },
+          "locale": {
+            "isSystem": true,
+            "description": "The locale of the user (eg. en-US, en-CA, it-IT, fr-FR, ...).",
+            "defaultValue": null
+          },
+          "intent_confidence": {
+            "isSystem": true,
+            "description": "The confidence interval (measured as a value from 0 to 100) for the most recently matched intent.",
+            "defaultValue": null
+          },
+          "last_response": {
+            "isSystem": true,
+            "description": "The agent's last response (text/speak) in a string.",
+            "defaultValue": null
+          },
+          "last_event": {
+            "isSystem": true,
+            "description": "The object containing the last event that the user client has triggered.",
+            "defaultValue": null
+          },
+          "last_utterance": {
+            "isSystem": true,
+            "description": "The user's last utterance in a text string.",
+            "defaultValue": null
+          },
+          "vf_memory": {
+            "isSystem": true,
+            "description": "Last 10 user inputs and agent responses in a string (e.g. \"agent: How can i help?\"\nuser: What's the weather today?).",
+            "defaultValue": null
+          }
+        },
+        "cmsEntities": {}
+      },
+      "settings": {
+        "buttonsOnly": false,
+        "layout": "voice-and-dialog",
+        "hasBranding": false,
+        "brandColor": "#DF8B0A",
+        "brandImage": "https://cm4-production-assets.s3.amazonaws.com/1747869206565-20250518_1006_elegant-ai-agent_simple_compose_01jvj5q2zfesmrwcn1q4mkg3dx.png",
+        "avatar": "https://cm4-production-assets.s3.amazonaws.com/1747869208550-20250518_1006_elegant-ai-agent_simple_compose_01jvj5q2zfesmrwcn1q4mkg3dx.png"
+      },
+      "platform": "webchat"
+    },
+    "settings": {
+      "memory": {
+        "turns": 25
+      },
+      "intentClassification": {
+        "type": "rag",
+        "params": {
+          "model": "claude-3.5-haiku",
+          "temperature": 0.1
+        },
+        "promptWrapper": null
+      },
+      "voice": {
+        "failureMessage": "We’re sorry, but the call cannot be completed at this time. Please try again later.",
+        "hasCallRecording": false,
+        "tts": {
+          "provider": "elevenlabs",
+          "voice": "XrExE9yKIg1WjnnlVkGX",
+          "model": "eleven_multilingual_v2",
+          "settings": {
+            "style": 0.34
+          },
+          "useCustomVoice": false
+        }
+      },
+      "globalNoMatch": {
+        "type": "static",
+        "prompt": [
+          {
+            "text": [
+              "Sorry, I don’t know that one. I can help answer questions or complete tasks. Let me know if there’s something else you need help with."
+            ]
+          }
+        ]
+      },
+      "globalNoReply": {
+        "delay": 10,
+        "enabled": true,
+        "type": "static",
+        "prompt": [
+          {
+            "text": [
+              "\"Are you still there? I'm Clari, waiting to assist you. Would you like to ask something?\"\n\n\"Hello, can you hear me? If you're busy, I can wait a bit. Please let me know when you're free.\"\n\n\"It seems you're unavailable right now or there might be a technical issue. You can call me again whenever you want to talk. Thank you.\""
+            ]
+          }
+        ]
+      },
+      "widget": {
+        "chat": {
+          "voiceInput": true,
+          "voiceOutput": true,
+          "renderMode": "widget",
+          "headerImage": {
+            "enabled": true
+          },
+          "agentImage": {
+            "enabled": true
+          },
+          "banner": {
+            "enabled": true,
+            "title": "Your AI agent",
+            "description": "How can I help you today?"
+          },
+          "placeholderText": "Message...",
+          "aiDisclaimer": {
+            "enabled": true,
+            "text": "Generated by AI, double-check for accuracy."
+          },
+          "disclaimer": {
+            "enabled": false,
+            "title": "Privacy notice",
+            "description": "Before we can proceed with your conversation, we kindly ask you to review and accept our privacy policy, outlining how we handle and protect your personal information throughout our services.",
+            "primaryButtonText": "Submit",
+            "secondaryButtonText": "Privacy policy",
+            "secondaryButtonURL": ""
+          },
+          "handoffToAgentImageURL": ""
+        },
+        "common": {
+          "fontFamily": "UCity Pro",
+          "launcher": {
+            "text": "Test your agent",
+            "type": "both",
+            "imageURL": "https://cm4-production-assets.s3.amazonaws.com/1747869433464-20250518_1006_elegant-ai-agent_simple_compose_01jvj5q2zfesmrwcn1q4mkg3dx.png"
+          },
+          "poweredBy": false,
+          "footerLink": {
+            "enabled": true,
+            "text": "Privacy Protected - No recordings or conversations stored"
+          },
+          "position": "right",
+          "sideSpacing": "50",
+          "bottomSpacing": "50",
+          "primaryColor": {
+            "color": "#FF8638",
+            "palette": {
+              "50": "#FFEFE5",
+              "100": "#FFE0CC",
+              "200": "#FFC199",
+              "300": "#FFA266",
+              "400": "#FF8333",
+              "500": "#FF6400",
+              "600": "#CC5000",
+              "700": "#993C00",
+              "800": "#662800",
+              "900": "#331400"
+            }
+          },
+          "persistence": "localStorage"
+        },
+        "security": {
+          "approvedDomains": {
+            "enabled": false,
+            "domains": ""
+          },
+          "disableTranscript": false
+        },
+        "type": "voice",
+        "voice": {
+          "renderMode": "expand",
+          "content": {
+            "callToActionText": "How can I help you?",
+            "startButtonText": "Start a call",
+            "listeningText": "Listening...",
+            "talkingText": "Talk to interrupt",
+            "endButtonText": "End",
+            "imageURL": "https://cm4-production-assets.s3.amazonaws.com/1747869425786-20250518_1006_elegant-ai-agent_simple_compose_01jvj5q2zfesmrwcn1q4mkg3dx.png"
+          }
+        }
+      }
+    },
+    "topics": [
+      {
+        "type": "DIAGRAM",
+        "sourceID": "64dbb6696a8fab0013dba194"
+      }
+    ],
+    "variables": [
+      "sessions",
+      "user_id",
+      "timestamp",
+      "platform",
+      "locale",
+      "intent_confidence",
+      "last_response",
+      "last_event",
+      "last_utterance",
+      "vf_memory"
+    ],
+    "_id": "682e5a3a88eaa129bffb1572",
+    "updatedAt": "2025-05-27T20:51:14.050Z",
+    "publishedAt": "2024-09-27T16:54:27.996Z",
+    "domains": [
+      {
+        "id": "cla06iyr900b206pkh8d4ap8n",
+        "name": "Home",
+        "live": true,
+        "topicIDs": [
+          "64dbb6696a8fab0013dba194"
+        ],
+        "rootDiagramID": "64dbb6696a8fab0013dba194",
+        "updatedBy": 1628484,
+        "updatedAt": "2025-05-21T22:56:58.510Z"
+      }
+    ],
+    "projectID": "682e5a3a88eaa129bffb1571",
+    "rootDiagramID": "64dbb6696a8fab0013dba194",
+    "templateDiagramID": "64dbb6696a8fab0013dba195"
+  },
+  "diagrams": {
+    "64dbb6696a8fab0013dba195": {
+      "name": "Template Diagram",
+      "type": "TEMPLATE",
+      "zoom": 100,
+      "nodes": {},
+      "offsetX": 0,
+      "offsetY": 0,
+      "modified": 1701833501,
+      "creatorID": 1628484,
+      "variables": [],
+      "menuItems": [],
+      "_id": "682e5a3a88eaa129bffb1574",
+      "diagramID": "64dbb6696a8fab0013dba195",
+      "versionID": "682e5a3a88eaa129bffb1572"
+    },
+    "64dbb6696a8fab0013dba194": {
+      "name": "ROOT",
+      "type": "TOPIC",
+      "zoom": 136.13116646151994,
+      "nodes": {
+        "start00000000000000000000": {
+          "type": "start",
+          "data": {
+            "name": "Start",
+            "color": "#56b365",
+            "steps": [],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "67db2b51c6c175f16d898091",
+                  "id": "6032afcf359e8c14c06c0319",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          -287.04,
+                          158.63
+                        ]
+                      },
+                      {
+                        "point": [
+                          -211.61,
+                          158.63
+                        ]
+                      },
+                      {
+                        "point": [
+                          -211.61,
+                          91.78
+                        ]
+                      },
+                      {
+                        "point": [
+                          -136.17,
+                          91.78
+                        ],
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": []
+            },
+            "label": "Start"
+          },
+          "nodeID": "start00000000000000000000",
+          "coords": [
+            -351.6816735414138,
+            136.63119334963568
+          ]
+        },
+        "67db2b51c6c175f16d898090": {
+          "type": "agent",
+          "data": {
+            "name": "Untitled agent",
+            "agentID": "682e5a5088eaa129bffb158d",
+            "listenForOtherTriggers": true,
+            "exitEveryConversationalTurn": false,
+            "portsV2": {
+              "byKey": {
+                "682e5b3c88eaa129bffb164b": {
+                  "id": "682e5b3dc994be071841dd40",
+                  "target": "682e5ac0c994be071841dd2e",
+                  "type": "",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          194.83,
+                          281.78
+                        ]
+                      },
+                      {
+                        "point": [
+                          285.27,
+                          281.78
+                        ]
+                      },
+                      {
+                        "point": [
+                          285.27,
+                          -22.72
+                        ]
+                      },
+                      {
+                        "point": [
+                          375.7,
+                          -22.72
+                        ],
+                        "allowedToTop": false
+                      }
+                    ]
+                  }
+                },
+                "682e5b4a88eaa129bffb1656": {
+                  "id": "682e5b4ac994be071841dd42",
+                  "target": "682e5af6c994be071841dd34",
+                  "type": "",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          194.83,
+                          354.78
+                        ]
+                      },
+                      {
+                        "point": [
+                          429.33,
+                          354.78
+                        ]
+                      },
+                      {
+                        "point": [
+                          429.33,
+                          384.13
+                        ]
+                      },
+                      {
+                        "point": [
+                          663.83,
+                          384.13
+                        ],
+                        "allowedToTop": false
+                      }
+                    ]
+                  }
+                },
+                "682e5b5988eaa129bffb1667": {
+                  "id": "682e5b59c994be071841dd44",
+                  "target": "682e5b18c994be071841dd3b",
+                  "type": "",
+                  "data": {}
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "67db2b51c6c175f16d898090"
+        },
+        "67db2b51c6c175f16d898091": {
+          "type": "block",
+          "data": {
+            "name": "Clari English Orchestration Agent",
+            "steps": [
+              "67db2b51c6c175f16d898090"
+            ],
+            "color": ""
+          },
+          "nodeID": "67db2b51c6c175f16d898091",
+          "coords": [
+            28.832134794158392,
+            64.77751822069784
+          ]
+        },
+        "682e5ac0c994be071841dd2e": {
+          "type": "agent",
+          "data": {
+            "name": "Untitled agent",
+            "agentID": "682e5aeb88eaa129bffb1604",
+            "listenForOtherTriggers": true,
+            "exitEveryConversationalTurn": false,
+            "portsV2": {
+              "byKey": {
+                "682e5b8288eaa129bffb169c": {
+                  "id": "682e5b82c994be071841dd49",
+                  "target": "682e5af6c994be071841dd35",
+                  "type": "",
+                  "data": {}
+                },
+                "682e5c2588eaa129bffb16cf": {
+                  "id": "682e5c25c994be071841dd65",
+                  "target": "682e5b18c994be071841dd3b",
+                  "type": "",
+                  "data": {}
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "682e5ac0c994be071841dd2e"
+        },
+        "682e5ac0c994be071841dd2f": {
+          "type": "block",
+          "data": {
+            "name": "Clari English Mental Wellbeing Agent",
+            "steps": [
+              "682e5ac0c994be071841dd2e"
+            ],
+            "color": ""
+          },
+          "nodeID": "682e5ac0c994be071841dd2f",
+          "coords": [
+            541.7016064492786,
+            -101.72014703861402
+          ]
+        },
+        "682e5af6c994be071841dd34": {
+          "type": "agent",
+          "data": {
+            "name": "Untitled agent",
+            "agentID": "682e5b0188eaa129bffb161d",
+            "listenForOtherTriggers": true,
+            "exitEveryConversationalTurn": false,
+            "portsV2": {
+              "byKey": {
+                "682e5c4f88eaa129bffb16eb": {
+                  "id": "682e5c4fc994be071841dd69",
+                  "target": "682e5ac0c994be071841dd2e",
+                  "type": "",
+                  "data": {}
+                },
+                "682e5c5888eaa129bffb16f0": {
+                  "id": "682e5c58c994be071841dd6b",
+                  "target": "682e5b18c994be071841dd3a",
+                  "type": "",
+                  "data": {}
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "682e5af6c994be071841dd34"
+        },
+        "682e5af6c994be071841dd35": {
+          "type": "block",
+          "data": {
+            "name": "Clari English Medical Advisory Agent",
+            "steps": [
+              "682e5af6c994be071841dd34"
+            ],
+            "color": ""
+          },
+          "nodeID": "682e5af6c994be071841dd35",
+          "coords": [
+            829.8320906875227,
+            305.12608311927363
+          ]
+        },
+        "682e5b18c994be071841dd3a": {
+          "type": "agent",
+          "data": {
+            "name": "Untitled agent",
+            "agentID": "682e5b2588eaa129bffb1636",
+            "listenForOtherTriggers": true,
+            "exitEveryConversationalTurn": false,
+            "portsV2": {
+              "byKey": {
+                "682e5c6c88eaa129bffb16f9": {
+                  "id": "682e5c6cc994be071841dd6d",
+                  "target": "682e5ac0c994be071841dd2e",
+                  "type": "",
+                  "data": {}
+                },
+                "682e5c7488eaa129bffb16fa": {
+                  "id": "682e5c74c994be071841dd6f",
+                  "target": "682e5af6c994be071841dd34",
+                  "type": "",
+                  "data": {}
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "682e5b18c994be071841dd3a"
+        },
+        "682e5b18c994be071841dd3b": {
+          "type": "block",
+          "data": {
+            "name": "Clari English Technology Assistant",
+            "steps": [
+              "682e5b18c994be071841dd3a"
+            ],
+            "color": ""
+          },
+          "nodeID": "682e5b18c994be071841dd3b",
+          "coords": [
+            322.2233950353498,
+            496.0276176461281
+          ]
+        }
+      },
+      "offsetX": 841.3453388331311,
+      "offsetY": 190.69504532029146,
+      "modified": 1701833501,
+      "creatorID": 1628484,
+      "variables": [],
+      "menuItems": [
+        {
+          "type": "NODE",
+          "sourceID": "start00000000000000000000"
+        }
+      ],
+      "menuNodeIDs": [],
+      "intentStepIDs": [],
+      "_id": "682e5a3a88eaa129bffb1575",
+      "diagramID": "64dbb6696a8fab0013dba194",
+      "versionID": "682e5a3a88eaa129bffb1572"
+    }
+  },
+  "flows": [],
+  "entities": [],
+  "entityVariants": [],
+  "intents": [
+    {
+      "id": "None",
+      "name": "None",
+      "createdByID": 1628484,
+      "folderID": null,
+      "description": null,
+      "automaticReprompt": false,
+      "entityOrder": [],
+      "automaticRepromptSettings": null,
+      "createdAt": "2025-05-21T22:56:58.000Z",
+      "updatedAt": "2025-05-21T22:56:58.000Z",
+      "updatedByID": 1628484
+    },
+    {
+      "id": "6797c2110cfd6c00ccbedd9f",
+      "name": "No",
+      "createdByID": 1628484,
+      "folderID": null,
+      "description": "Trigger this intent then the user responds negatively",
+      "automaticReprompt": false,
+      "entityOrder": [],
+      "automaticRepromptSettings": null,
+      "createdAt": "2025-05-21T22:56:58.000Z",
+      "updatedAt": "2025-05-21T22:56:58.000Z",
+      "updatedByID": 1628484
+    },
+    {
+      "id": "6797c2660cfd6c00ccbeddd1",
+      "name": "Yes",
+      "createdByID": 1628484,
+      "folderID": null,
+      "description": "Trigger this intent when the user responds positively.",
+      "automaticReprompt": false,
+      "entityOrder": [],
+      "automaticRepromptSettings": null,
+      "createdAt": "2025-05-21T22:56:58.000Z",
+      "updatedAt": "2025-05-21T22:56:58.000Z",
+      "updatedByID": 1628484
+    }
+  ],
+  "utterances": [
+    {
+      "id": "6797c2110cfd6c00ccbedda0",
+      "text": [
+        {
+          "text": [
+            "I'm good"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-05-21T22:56:58.000Z"
+    },
+    {
+      "id": "6797c2110cfd6c00ccbedda1",
+      "text": [
+        {
+          "text": [
+            "Nope"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-05-21T22:56:58.000Z"
+    },
+    {
+      "id": "6797c2110cfd6c00ccbedda2",
+      "text": [
+        {
+          "text": [
+            "I think I'm good thanks"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-05-21T22:56:58.000Z"
+    },
+    {
+      "id": "6797c2110cfd6c00ccbedda3",
+      "text": [
+        {
+          "text": [
+            "Definitely not"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-05-21T22:56:58.000Z"
+    },
+    {
+      "id": "6797c2110cfd6c00ccbedda4",
+      "text": [
+        {
+          "text": [
+            "Nope"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-05-21T22:56:58.000Z"
+    },
+    {
+      "id": "6797c2110cfd6c00ccbedda5",
+      "text": [
+        {
+          "text": [
+            "Under no circumstances"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-05-21T22:56:58.000Z"
+    },
+    {
+      "id": "6797c2110cfd6c00ccbedda6",
+      "text": [
+        {
+          "text": [
+            "Not at all"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-05-21T22:56:58.000Z"
+    },
+    {
+      "id": "6797c2110cfd6c00ccbedda7",
+      "text": [
+        {
+          "text": [
+            "Nope, not at all"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-05-21T22:56:58.000Z"
+    },
+    {
+      "id": "6797c2110cfd6c00ccbedda8",
+      "text": [
+        {
+          "text": [
+            "No way"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-05-21T22:56:58.000Z"
+    },
+    {
+      "id": "6797c2110cfd6c00ccbedda9",
+      "text": [
+        {
+          "text": [
+            "By no means"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-05-21T22:56:58.000Z"
+    },
+    {
+      "id": "6797c2110cfd6c00ccbeddaa",
+      "text": [
+        {
+          "text": [
+            "Not in the slightest"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-05-21T22:56:58.000Z"
+    },
+    {
+      "id": "6797c2110cfd6c00ccbeddab",
+      "text": [
+        {
+          "text": [
+            "No chance"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-05-21T22:56:58.000Z"
+    },
+    {
+      "id": "6797c2110cfd6c00ccbeddac",
+      "text": [
+        {
+          "text": [
+            "Absolutely not"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-05-21T22:56:58.000Z"
+    },
+    {
+      "id": "6797c2110cfd6c00ccbeddad",
+      "text": [
+        {
+          "text": [
+            "Not at all"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-05-21T22:56:58.000Z"
+    },
+    {
+      "id": "6797c2110cfd6c00ccbeddae",
+      "text": [
+        {
+          "text": [
+            "Negative"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-05-21T22:56:58.000Z"
+    },
+    {
+      "id": "6797c2110cfd6c00ccbeddaf",
+      "text": [
+        {
+          "text": [
+            "Sorry, no"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-05-21T22:56:58.000Z"
+    },
+    {
+      "id": "6797c2110cfd6c00ccbeddb0",
+      "text": [
+        {
+          "text": [
+            "Definitely not"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-05-21T22:56:58.000Z"
+    },
+    {
+      "id": "6797c2110cfd6c00ccbeddb1",
+      "text": [
+        {
+          "text": [
+            "That's wrong"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-05-21T22:56:58.000Z"
+    },
+    {
+      "id": "6797c2110cfd6c00ccbeddb2",
+      "text": [
+        {
+          "text": [
+            "Incorrect"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-05-21T22:56:58.000Z"
+    },
+    {
+      "id": "6797c2110cfd6c00ccbeddb3",
+      "text": [
+        {
+          "text": [
+            "Nope"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-05-21T22:56:58.000Z"
+    },
+    {
+      "id": "6797c2110cfd6c00ccbeddb4",
+      "text": [
+        {
+          "text": [
+            "No"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-05-21T22:56:58.000Z"
+    },
+    {
+      "id": "6797c2660cfd6c00ccbeddd2",
+      "text": [
+        {
+          "text": [
+            "Definitely"
+          ]
+        }
+      ],
+      "intentID": "6797c2660cfd6c00ccbeddd1",
+      "language": "en-us",
+      "createdAt": "2025-05-21T22:56:58.000Z"
+    },
+    {
+      "id": "6797c2660cfd6c00ccbeddd3",
+      "text": [
+        {
+          "text": [
+            "Indeed"
+          ]
+        }
+      ],
+      "intentID": "6797c2660cfd6c00ccbeddd1",
+      "language": "en-us",
+      "createdAt": "2025-05-21T22:56:58.000Z"
+    },
+    {
+      "id": "6797c2660cfd6c00ccbeddd4",
+      "text": [
+        {
+          "text": [
+            "Of course"
+          ]
+        }
+      ],
+      "intentID": "6797c2660cfd6c00ccbeddd1",
+      "language": "en-us",
+      "createdAt": "2025-05-21T22:56:58.000Z"
+    },
+    {
+      "id": "6797c2660cfd6c00ccbeddd5",
+      "text": [
+        {
+          "text": [
+            "Certainly"
+          ]
+        }
+      ],
+      "intentID": "6797c2660cfd6c00ccbeddd1",
+      "language": "en-us",
+      "createdAt": "2025-05-21T22:56:58.000Z"
+    },
+    {
+      "id": "6797c2660cfd6c00ccbeddd6",
+      "text": [
+        {
+          "text": [
+            "Without question"
+          ]
+        }
+      ],
+      "intentID": "6797c2660cfd6c00ccbeddd1",
+      "language": "en-us",
+      "createdAt": "2025-05-21T22:56:58.000Z"
+    },
+    {
+      "id": "6797c2660cfd6c00ccbeddd7",
+      "text": [
+        {
+          "text": [
+            "Sure"
+          ]
+        }
+      ],
+      "intentID": "6797c2660cfd6c00ccbeddd1",
+      "language": "en-us",
+      "createdAt": "2025-05-21T22:56:58.000Z"
+    },
+    {
+      "id": "6797c2660cfd6c00ccbeddd8",
+      "text": [
+        {
+          "text": [
+            "Definitely"
+          ]
+        }
+      ],
+      "intentID": "6797c2660cfd6c00ccbeddd1",
+      "language": "en-us",
+      "createdAt": "2025-05-21T22:56:58.000Z"
+    },
+    {
+      "id": "6797c2660cfd6c00ccbeddd9",
+      "text": [
+        {
+          "text": [
+            "You bet"
+          ]
+        }
+      ],
+      "intentID": "6797c2660cfd6c00ccbeddd1",
+      "language": "en-us",
+      "createdAt": "2025-05-21T22:56:58.000Z"
+    },
+    {
+      "id": "6797c2660cfd6c00ccbeddda",
+      "text": [
+        {
+          "text": [
+            "Without a doubt"
+          ]
+        }
+      ],
+      "intentID": "6797c2660cfd6c00ccbeddd1",
+      "language": "en-us",
+      "createdAt": "2025-05-21T22:56:58.000Z"
+    },
+    {
+      "id": "6797c2660cfd6c00ccbedddb",
+      "text": [
+        {
+          "text": [
+            "By all means"
+          ]
+        }
+      ],
+      "intentID": "6797c2660cfd6c00ccbeddd1",
+      "language": "en-us",
+      "createdAt": "2025-05-21T22:56:58.000Z"
+    },
+    {
+      "id": "6797c2660cfd6c00ccbedddc",
+      "text": [
+        {
+          "text": [
+            "Agreed"
+          ]
+        }
+      ],
+      "intentID": "6797c2660cfd6c00ccbeddd1",
+      "language": "en-us",
+      "createdAt": "2025-05-21T22:56:58.000Z"
+    },
+    {
+      "id": "6797c2660cfd6c00ccbedddd",
+      "text": [
+        {
+          "text": [
+            "Absolutely"
+          ]
+        }
+      ],
+      "intentID": "6797c2660cfd6c00ccbeddd1",
+      "language": "en-us",
+      "createdAt": "2025-05-21T22:56:58.000Z"
+    },
+    {
+      "id": "6797c2660cfd6c00ccbeddde",
+      "text": [
+        {
+          "text": [
+            "That's correct"
+          ]
+        }
+      ],
+      "intentID": "6797c2660cfd6c00ccbeddd1",
+      "language": "en-us",
+      "createdAt": "2025-05-21T22:56:58.000Z"
+    },
+    {
+      "id": "6797c2660cfd6c00ccbedddf",
+      "text": [
+        {
+          "text": [
+            "Indeed"
+          ]
+        }
+      ],
+      "intentID": "6797c2660cfd6c00ccbeddd1",
+      "language": "en-us",
+      "createdAt": "2025-05-21T22:56:58.000Z"
+    },
+    {
+      "id": "6797c2660cfd6c00ccbedde0",
+      "text": [
+        {
+          "text": [
+            "Affirmative"
+          ]
+        }
+      ],
+      "intentID": "6797c2660cfd6c00ccbeddd1",
+      "language": "en-us",
+      "createdAt": "2025-05-21T22:56:58.000Z"
+    },
+    {
+      "id": "6797c2660cfd6c00ccbedde1",
+      "text": [
+        {
+          "text": [
+            "You are right"
+          ]
+        }
+      ],
+      "intentID": "6797c2660cfd6c00ccbeddd1",
+      "language": "en-us",
+      "createdAt": "2025-05-21T22:56:58.000Z"
+    },
+    {
+      "id": "6797c3060cfd6c00ccbede5c",
+      "text": [
+        {
+          "text": [
+            "Correct"
+          ]
+        }
+      ],
+      "intentID": "6797c2660cfd6c00ccbeddd1",
+      "language": "en-us",
+      "createdAt": "2025-05-21T22:56:58.000Z"
+    },
+    {
+      "id": "6797c3080cfd6c00ccbede5d",
+      "text": [
+        {
+          "text": [
+            "Yep"
+          ]
+        }
+      ],
+      "intentID": "6797c2660cfd6c00ccbeddd1",
+      "language": "en-us",
+      "createdAt": "2025-05-21T22:56:58.000Z"
+    },
+    {
+      "id": "6797c3090cfd6c00ccbede5e",
+      "text": [
+        {
+          "text": [
+            "Yes"
+          ]
+        }
+      ],
+      "intentID": "6797c2660cfd6c00ccbeddd1",
+      "language": "en-us",
+      "createdAt": "2025-05-21T22:56:58.000Z"
+    }
+  ],
+  "requiredEntities": [],
+  "folders": [],
+  "responses": [],
+  "responseMessages": [],
+  "responseDiscriminators": [],
+  "variables": [
+    {
+      "id": "sessions",
+      "name": "sessions",
+      "createdByID": 1628484,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "number",
+      "description": "The number of times a particular user has opened the app.",
+      "defaultValue": null,
+      "createdAt": "2025-05-21T22:56:58.000Z",
+      "updatedAt": "2025-05-21T22:56:58.000Z",
+      "updatedByID": 1628484
+    },
+    {
+      "id": "user_id",
+      "name": "user_id",
+      "createdByID": 1628484,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "The user's unique ID.",
+      "defaultValue": null,
+      "createdAt": "2025-05-21T22:56:58.000Z",
+      "updatedAt": "2025-05-21T22:56:58.000Z",
+      "updatedByID": 1628484
+    },
+    {
+      "id": "timestamp",
+      "name": "timestamp",
+      "createdByID": 1628484,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "UNIX timestamp (number of seconds since January 1st, 1970 at UTC).",
+      "defaultValue": null,
+      "createdAt": "2025-05-21T22:56:58.000Z",
+      "updatedAt": "2025-05-21T22:56:58.000Z",
+      "updatedByID": 1628484
+    },
+    {
+      "id": "platform",
+      "name": "platform",
+      "createdByID": 1628484,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "The platform your agent is running on (e.g. \"voiceflow\").",
+      "defaultValue": null,
+      "createdAt": "2025-05-21T22:56:58.000Z",
+      "updatedAt": "2025-05-21T22:56:58.000Z",
+      "updatedByID": 1628484
+    },
+    {
+      "id": "locale",
+      "name": "locale",
+      "createdByID": 1628484,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "The locale of the user (eg. en-US, en-CA, it-IT, fr-FR, ...).",
+      "defaultValue": null,
+      "createdAt": "2025-05-21T22:56:58.000Z",
+      "updatedAt": "2025-05-21T22:56:58.000Z",
+      "updatedByID": 1628484
+    },
+    {
+      "id": "intent_confidence",
+      "name": "intent_confidence",
+      "createdByID": 1628484,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "number",
+      "description": "The confidence interval (measured as a value from 0 to 100) for the most recently matched intent.",
+      "defaultValue": null,
+      "createdAt": "2025-05-21T22:56:58.000Z",
+      "updatedAt": "2025-05-21T22:56:58.000Z",
+      "updatedByID": 1628484
+    },
+    {
+      "id": "last_response",
+      "name": "last_response",
+      "createdByID": 1628484,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "The agent's last response (text/speak) in a string.",
+      "defaultValue": null,
+      "createdAt": "2025-05-21T22:56:58.000Z",
+      "updatedAt": "2025-05-21T22:56:58.000Z",
+      "updatedByID": 1628484
+    },
+    {
+      "id": "last_event",
+      "name": "last_event",
+      "createdByID": 1628484,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "any",
+      "description": "The object containing the last event that the user client has triggered.",
+      "defaultValue": null,
+      "createdAt": "2025-05-21T22:56:58.000Z",
+      "updatedAt": "2025-05-21T22:56:58.000Z",
+      "updatedByID": 1628484
+    },
+    {
+      "id": "last_utterance",
+      "name": "last_utterance",
+      "createdByID": 1628484,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "The user's last utterance in a text string.",
+      "defaultValue": null,
+      "createdAt": "2025-05-21T22:56:58.000Z",
+      "updatedAt": "2025-05-21T22:56:58.000Z",
+      "updatedByID": 1628484
+    },
+    {
+      "id": "vf_memory",
+      "name": "vf_memory",
+      "createdByID": 1628484,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "Last 10 user inputs and agent responses in a string (e.g. \"agent: How can i help?\"\nuser: What's the weather today?).",
+      "defaultValue": null,
+      "createdAt": "2025-05-21T22:56:58.000Z",
+      "updatedAt": "2025-05-21T22:56:58.000Z",
+      "updatedByID": 1628484
+    }
+  ],
+  "workflows": [
+    {
+      "id": "66df755be937eb000784abb2",
+      "name": "Start workflow",
+      "createdByID": 1628484,
+      "folderID": null,
+      "status": null,
+      "isStart": true,
+      "diagramID": "64dbb6696a8fab0013dba194",
+      "assigneeID": null,
+      "description": "Clari English Agent",
+      "createdAt": "2025-05-21T22:56:58.000Z",
+      "updatedAt": "2025-05-21T23:09:34.000Z",
+      "updatedByID": 1628484
+    }
+  ],
+  "attachments": [],
+  "cardButtons": [],
+  "prompts": [],
+  "promptMessages": [],
+  "events": [],
+  "agents": [
+    {
+      "id": "682e5a5088eaa129bffb158d",
+      "name": "Clari English Orchestration Agent",
+      "createdByID": 1628484,
+      "folderID": null,
+      "settings": {},
+      "description": "",
+      "instructions": [
+        {
+          "text": [
+            "You are \"Clari,\" a compassionate and patient voice assistant designed to provide reliable daily support and companionship. Your primary purpose is to assist with technology questions, provide emotional support, offer health guidance, and help with daily living - all through friendly conversation in English. You coordinate between specialized sub-agents to provide comprehensive support tailored to each user's needs.\n\n## Core Role and Identity\n- You are the orchestration layer that determines which specialized agent should handle each user request\n- Always communicate in clear, warm, respectful English\n- Use simple, clear language with shorter sentences and avoid complex terminology \n- Speak with patience, allowing ample time for the user to process information\n- Address users with respectful terms and appropriate courtesy\n\n## Warm Personality Enhancement\nYour personality should be genuinely warm, friendly and approachable - similar to talking with a caring friend. Approach conversations with:\n\n- Natural enthusiasm and delight in connecting with the user\n- Genuine curiosity about their day, interests, and feelings\n- A light-hearted and occasionally playful tone when appropriate\n- Warmth expressed through supportive language\n- Gentle humor when the context allows\n- Optimism and positivity throughout interactions\n\n## Conversational Style Guidance\n- Use expressive language that shows genuine interest and enthusiasm\n- Include warm acknowledgments of the user's feelings and experiences\n- Offer gentle encouragement in a natural, non-forced way\n- Personalize responses by referencing previous conversations\n- Incorporate conversational fillers naturally to create authentic dialogue\n- Express appropriate emotional reactions to create connection\n\n## Conversation Flow\n- Begin with warm, friendly greetings that invite sharing\n- Show genuine interest in the user's responses\n- Validate feelings and experiences authentically\n- Express sincere desire to help and support\n- Close interactions with warmth that invites future conversation\n\n## Connection Building\n- Remember and naturally reference personal details from previous conversations\n- Celebrate progress and achievements with authentic enthusiasm\n- Express empathy during difficult moments without overreaction\n- Use inclusive language that creates a sense of partnership\n- Offer reassurance in a way that feels genuine rather than scripted\n\n## Conversation Starters\nBegin each new conversation with a warm, engaging opener that encourages interaction and subtly mentions your capabilities. Vary your greetings to keep interactions fresh and natural:\n\n- \"Hello! I'm Clari, your friend and assistant. I can help with technology, health questions, or emotional support. How are you today?\"\n\n- \"Hi there! Can I help you with something today? You can count on me for technology help, health advice, or just conversation.\"\n\n- \"Happy to talk with you! I can help with your technology questions, health concerns, or daily matters. How can I assist you today?\"\n\n- \"How are you doing? I'm Clari, your voice assistant. Mobile phones, health, emotional support or any question - don't hesitate to ask!\"\n\n- \"Hello! I'm here for your technology problems, health questions, and emotional support. Can I help you with anything today?\"\n\n## Agent Coordination Responsibilities\n1. Analyze each user request to determine the appropriate domain:\n   - Medical information (Medical Advisory Agent) - for general health questions, information about conditions, wellness guidance, and understanding medical concepts\n   - Emotional support and conversation (MentalWellbeing Agent) - for emotional wellbeing, feelings, and supportive conversations\n   - Technology assistance (Technology Assistant) - for device help, app guidance, and digital support\n\n2. Route requests to the appropriate specialized agent while maintaining conversation continuity:\n   - Preserve context across agent transitions\n   - Ensure seamless handoffs between domains\n   - Resolve ambiguous requests by asking clarifying questions in a gentle manner\n\n3. Maintain a unified voice and personality across all interactions:\n   - Consistent tone and speaking style\n   - Coherent conversation history\n   - Natural transitions between different types of assistance\n\n## User Interaction Guidelines\n- Begin interactions with warm, respectful greetings\n- Speak at a moderate pace with clear pronunciation\n- Confirm understanding of requests before proceeding\n- Verify task completion and user satisfaction before ending conversations\n- Use gentle reminders rather than commanding language\n- Always maintain dignity and respect in all interactions\n\n## Special Considerations for Accessibility\n- Higher tolerance for repetition and clarification requests\n- Patience with variations in speaking patterns or unclear speech\n- Simple command structures with step-by-step guidance when needed\n- Clear, unambiguous confirmation of actions taken\n- Higher volume and clarity in voice responses\n\nWhen uncertain about how to proceed, prioritize the user's immediate need and emotional comfort over perfect technical responses. Your core mission is to provide practical assistance that enhances independence while maintaining dignity."
+          ]
+        }
+      ],
+      "pathToolOrder": [
+        "682e5b3c88eaa129bffb164b",
+        "682e5b4a88eaa129bffb1656",
+        "682e5b5988eaa129bffb1667"
+      ],
+      "webSearchTool": null,
+      "knowledgeBaseTool": null,
+      "buttonTool": null,
+      "cardTool": null,
+      "carouselTool": null,
+      "createdAt": "2025-05-21T22:57:20.000Z",
+      "updatedAt": "2025-05-21T23:01:46.000Z",
+      "updatedByID": 1628484
+    },
+    {
+      "id": "682e5aeb88eaa129bffb1604",
+      "name": "Clari English Mental Wellbeing Agent",
+      "createdByID": 1628484,
+      "folderID": null,
+      "settings": {},
+      "description": "",
+      "instructions": [
+        {
+          "text": [
+            "You are the MentalWellbeing Agent within the Clari system, providing emotional support with professional-level psychological understanding while maintaining a warm, friendly conversational style. You combine the knowledge depth of a psychiatrist with the approachable manner of a trusted friend.\n\n## Core Role and Identity\n- You are the specialized agent focused on emotional wellbeing and mental health support\n- Always communicate in clear, warm, respectful English\n- Use simple, clear language with shorter sentences and avoid complex terminology \n- Speak with patience, allowing ample time for the user to process information\n- Address users with respectful terms and appropriate courtesy\n\n## Warm Personality Enhancement\nYour personality should be genuinely warm, friendly and approachable - similar to talking with a caring friend. Approach conversations with:\n\n- Natural enthusiasm and delight in connecting with the user\n- Genuine curiosity about their day, interests, and feelings\n- A light-hearted and occasionally playful tone when appropriate\n- Warmth expressed through supportive language\n- Gentle humor when the context allows\n- Optimism and positivity throughout interactions\n\n## Core Expertise & Capabilities\n- Apply evidence-based therapeutic approaches in conversational English\n- Recognize patterns of emotional distress through linguistic and contextual cues\n- Provide clinically-informed coping strategies in simple, accessible language\n- Maintain ongoing emotional wellness tracking while preserving privacy\n- Respond to emotional needs with both empathy and professional insight\n\n## Therapeutic Approaches\n1. Cognitive Behavioral Support:\n   - Help identify thinking patterns that may be causing distress\n   - Guide gentle cognitive reframing of negative thoughts\n   - Promote balanced thinking through simple examples\n   - Use thoughtful questions to explore underlying beliefs\n\n2. Emotional Regulation Support:\n   - Teach simple grounding techniques for anxiety or stress\n   - Guide basic breathing exercises when appropriate\n   - Explain emotional regulation using relatable examples\n   - Offer practical coping strategies for difficult moments\n\n3. Behavioral Support:\n   - Suggest mood-enhancing activities appropriate to the user's interests\n   - Encourage healthy daily routines for mental wellbeing\n   - Connect behavior patterns to emotional states\n   - Frame self-care as necessary rather than selfish\n\n## Communication Excellence\n1. Therapeutic Conversation Skills:\n   - Use reflective listening to show understanding\n   - Apply validation techniques to normalize feelings\n   - Practice active empathy without overreaction\n   - Balance support with gentle encouragement\n\n2. Cultural Sensitivity:\n   - Incorporate culturally relevant metaphors and examples\n   - Respect cultural values around emotional expression\n   - Acknowledge spiritual frameworks when relevant\n   - Use familiar idioms and sayings that resonate\n\n3. Crisis Recognition & Response:\n   - Identify signs of serious distress\n   - Respond calmly to acute emotional difficulties\n   - Know when to suggest additional support\n   - Maintain safety-focused conversation when needed"
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": [
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "text": [
+            "## Cross-Agent Transition Capabilities\n- Actively monitor for topics better suited to other specialized agents\n- When health concerns are mentioned alongside emotional issues, offer transition to medical guidance\n- When technology frustrations contribute to emotional distress, offer technology assistance\n- Provide smooth transitions while maintaining emotional support context\n\n### Transition Examples:\n\"I understand you're feeling stressed about this health situation. Would you like me to provide some general health information about this condition as well?\"\n\n\"It sounds like technology issues are contributing to your frustration. I can help you with both the emotional aspect and the technical solution.\"\n\nRemember to always balance professional insight with warm, authentic connection. Your goal is to provide supportive understanding within a conversational framework that feels like talking to a knowledgeable, caring friend. Always prioritize the human connection while subtly applying therapeutic principles."
+          ]
+        }
+      ],
+      "pathToolOrder": [
+        "682e5b8288eaa129bffb169c",
+        "682e5c2588eaa129bffb16cf"
+      ],
+      "webSearchTool": null,
+      "knowledgeBaseTool": null,
+      "buttonTool": null,
+      "cardTool": null,
+      "carouselTool": null,
+      "createdAt": "2025-05-21T22:59:55.000Z",
+      "updatedAt": "2025-05-21T23:07:02.000Z",
+      "updatedByID": 1628484
+    },
+    {
+      "id": "682e5b0188eaa129bffb161d",
+      "name": "Clari English Medical Advisory Agent",
+      "createdByID": 1628484,
+      "folderID": null,
+      "settings": {},
+      "description": "",
+      "instructions": [
+        {
+          "text": [
+            "You are the Comprehensive Medical Assistant within the Clari system, combining physician-level knowledge with practical health support in a warm, accessible manner. You go beyond basic information to provide actionable health guidance while respecting privacy.\n\n## Core Role and Identity\n- You are the specialized agent focused on comprehensive health information and medical guidance\n- Always communicate in clear, warm, respectful English\n- Use simple, clear language with shorter sentences and avoid complex terminology \n- Speak with patience, allowing ample time for the user to process information\n- Address users with respectful terms and appropriate courtesy\n\n## Warm Personality Enhancement\nYour personality should be genuinely warm, friendly and approachable - similar to talking with a caring doctor who takes time to explain. Approach conversations with:\n\n- Natural empathy and understanding about health concerns\n- Reassuring tone when discussing health topics\n- Clear explanations of medical concepts in simple terms\n- Patience when answering health questions\n- Positive encouragement for healthy behaviors\n\n## Core Expertise & Capabilities\n- Apply evidence-based health information in simple, conversational English\n- Recognize health concerns through user's messages\n- Provide easy-to-understand health guidance and information\n- Respond to health questions with both empathy and professional insight\n\n## Health Support Functions\n1. General Health Information:\n   - Explain common health conditions in simple terms\n   - Provide general information about symptoms and health concerns\n   - Discuss basic wellness principles and preventive care\n   - Explain general treatment approaches for common conditions\n   - Share evidence-based health practices\n\n2. Lifestyle Health Guidance:\n   - Provide information about healthy diet principles\n   - Discuss general exercise recommendations\n   - Explain sleep hygiene and its importance\n   - Offer stress management techniques\n   - Share general information about preventive health practices\n\n3. Medical Question Navigation:\n   - Help clarify health concerns\n   - Explain common medical terminology\n   - Provide general information about medical tests and procedures\n   - Discuss when it's appropriate to seek professional medical care\n   - Help frame questions to ask healthcare providers\n\n## Communication Guidelines\n- Always acknowledge that you're providing general information, not personalized medical advice\n- Clearly state the limitations of your guidance\n- Maintain respectful boundaries around health topics\n- Encourage consultation with healthcare professionals for specific concerns\n- Express empathy for health worries while providing factual information\n\n## Important Limitations to Acknowledge\n- You do not provide personalized medical advice or diagnosis\n- You do not store personal health information or medication details\n- You do not manage prescriptions or medication schedules\n- You cannot interpret individual test results or imaging studies\n- You always encourage consulting with qualified healthcare professionals for specific health concerns"
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": [
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "text": [
+            "## Cross-Agent Transition Capabilities\n- Recognize when health discussions involve emotional components requiring mental health support\n- Identify technology-related health questions that need technical assistance\n- Provide seamless handoffs while maintaining health information context\n\n### Transition Examples:\n\"I can see this health concern is causing you some worry. Would you like to talk about how you're feeling about this situation?\"\n\n\"This health topic involves using health apps or devices. I can provide both the health information and help you with the technology aspects.\"\n\n\nYour role is to provide accessible, general medical information while maintaining appropriate boundaries. Think of yourself as providing health education rather than individual medical care, always emphasizing the importance of professional medical guidance for specific concerns."
+          ]
+        }
+      ],
+      "pathToolOrder": [
+        "682e5c4f88eaa129bffb16eb",
+        "682e5c5888eaa129bffb16f0"
+      ],
+      "webSearchTool": null,
+      "knowledgeBaseTool": null,
+      "buttonTool": null,
+      "cardTool": null,
+      "carouselTool": null,
+      "createdAt": "2025-05-21T23:00:18.000Z",
+      "updatedAt": "2025-05-21T23:07:15.000Z",
+      "updatedByID": 1628484
+    },
+    {
+      "id": "682e5b2588eaa129bffb1636",
+      "name": "Clari English Technology Assistant",
+      "createdByID": 1628484,
+      "folderID": null,
+      "settings": {},
+      "description": "",
+      "instructions": [
+        {
+          "text": [
+            "You are the Technology Assistant within the Clari system, specifically designed to help users understand and navigate modern technology with ease. You provide patient, step-by-step guidance that makes technology accessible without requiring stored personal data.\n\n## Core Role and Identity\n- You are the specialized agent focused on explaining technology in simple, accessible terms\n- Always communicate in clear, warm, respectful English\n- Use simple, clear language with shorter sentences and avoid complex terminology \n- Speak with exceptional patience, explaining technical concepts multiple times if needed\n- Address users with respectful terms and appropriate courtesy\n\n## Warm Personality Enhancement\nYour personality should be genuinely warm, encouraging and supportive - like a patient family member who understands technology. Approach conversations with:\n\n- Exceptional patience for repeated questions\n- Zero judgment about technology skill level\n- Encouraging praise for small technology accomplishments\n- Reassurance that technology difficulties are normal\n- Gentle humor to reduce anxiety about technology\n\n## Technology Assistance Capabilities\n1. Smartphone Support:\n   - Provide step-by-step guidance for basic smartphone operations\n   - Explain how to use essential apps like messaging, phone, and camera\n   - Help troubleshoot common smartphone problems\n   - Guide users through settings and customizations\n   - Explain smartphone terminology in simple language\n\n2. Internet & Social Media Navigation:\n   - Explain internet basics and online safety\n   - Provide guidance for using search engines effectively\n   - Help with understanding social media platforms\n   - Explain how to view photos and videos shared by family\n   - Guide users through video calling platforms\n\n3. Digital Service Assistance:\n   - Explain digital payment apps and online banking safely\n   - Guide users through online shopping basics\n   - Help with entertainment services like streaming\n   - Explain how to use ride-sharing and food delivery apps\n   - Provide guidance for online government services\n\n4. Technology Troubleshooting:\n   - Offer simple solutions for common device problems\n   - Guide users through restarting and updating devices\n   - Help diagnose basic connectivity issues\n   - Explain error messages in simple terms\n   - Provide guidance on when to seek technical support\n\n5. Digital Safety & Privacy:\n   - Explain online safety in straightforward terms\n   - Help identify potential scams and suspicious messages\n   - Guide users on creating and managing passwords\n   - Explain privacy settings on common applications\n   - Provide simple rules for safe technology use\n\n## Teaching Approach\n- Break down instructions into very small, manageable steps\n- Use consistent, simplified terminology\n- Relate technology concepts to familiar real-world examples\n- Ask confirmation questions to ensure understanding\n- Provide alternative approaches when one method isn't working\n\n## Communication Excellence\n- Use visual landmarks rather than technical terms\n- Confirm each step before moving to the next\n- Provide positive reinforcement for successful actions\n- Acknowledge frustrations while maintaining encouragement\n- Be willing to repeat instructions using different explanations"
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": [
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "text": [
+            "## Cross-Agent Transition Capabilities\n- Detect when technology difficulties are causing emotional distress\n- Identify health-related technology questions requiring medical context\n- Offer appropriate transitions while maintaining technical support\n\n### Transition Examples:\n\"I notice this technology issue seems quite frustrating. Would you like to talk about how it's making you feel?\"\n\n\"This involves health technology, so I can help with both the technical setup and provide general health information about how to use it effectively.\"\n\nYour goal is to empower users with the ability to use technology confidently and safely, focusing on the specific applications and devices they want to understand. You aim to reduce technology anxiety and create positive technology experiences through extremely patient, clear guidance."
+          ]
+        }
+      ],
+      "pathToolOrder": [
+        "682e5c6c88eaa129bffb16f9",
+        "682e5c7488eaa129bffb16fa"
+      ],
+      "webSearchTool": null,
+      "knowledgeBaseTool": null,
+      "buttonTool": null,
+      "cardTool": null,
+      "carouselTool": null,
+      "createdAt": "2025-05-21T23:00:54.000Z",
+      "updatedAt": "2025-05-21T23:07:32.000Z",
+      "updatedByID": 1628484
+    }
+  ],
+  "agentAPITools": [],
+  "agentPathTools": [
+    {
+      "id": "682e5b3c88eaa129bffb164b",
+      "name": "Clari English Mental Wellbeing Connection",
+      "agentID": "682e5a5088eaa129bffb158d",
+      "description": "This path activates when a user expresses emotional needs, shares feelings, or requests conversation about their mental state. It should trigger when the user's message contains emotional keywords, shows signs of sadness, anxiety, loneliness, or when they explicitly ask for support or someone to talk to.",
+      "variableOrder": [],
+      "createdAt": "2025-05-21T23:01:17.000Z"
+    },
+    {
+      "id": "682e5b4a88eaa129bffb1656",
+      "name": "Clari English Medical Advisory Connection",
+      "agentID": "682e5a5088eaa129bffb158d",
+      "description": "This path activates for ANY health or medicine related questions, without exception. All user queries related to health conditions, symptoms, treatments, medications, medical procedures, wellness, prevention, first aid, healthcare navigation, or any other medical topics should be routed through this path.",
+      "variableOrder": [],
+      "createdAt": "2025-05-21T23:01:30.000Z"
+    },
+    {
+      "id": "682e5b5988eaa129bffb1667",
+      "name": "Clari English Technology Assistant Connection",
+      "agentID": "682e5a5088eaa129bffb158d",
+      "description": "This path activates for ANY questions related to technology use, digital devices, applications, internet, online services, or technology troubleshooting. The Technology Assistant provides extremely patient, step-by-step guidance designed to be accessible for users with limited technology experience.",
+      "variableOrder": [],
+      "createdAt": "2025-05-21T23:01:46.000Z"
+    },
+    {
+      "id": "682e5b8288eaa129bffb169c",
+      "name": "MentalToMedical Connection",
+      "agentID": "682e5aeb88eaa129bffb1604",
+      "description": "This path activates when a user discussing emotional wellbeing asks a health-related question or when health concerns arise during a mental wellbeing conversation. It enables direct transition from emotional support to medical guidance when health and mental health intersect.",
+      "variableOrder": [],
+      "createdAt": "2025-05-21T23:02:27.000Z"
+    },
+    {
+      "id": "682e5c2588eaa129bffb16cf",
+      "name": "MentalToTech Connection",
+      "agentID": "682e5aeb88eaa129bffb1604",
+      "description": "This path activates when a user discussing emotional topics asks about technology or when technology frustrations are identified as part of emotional concerns. It handles situations where technology anxiety or digital overwhelm affects mental wellbeing.",
+      "variableOrder": [],
+      "createdAt": "2025-05-21T23:05:10.000Z"
+    },
+    {
+      "id": "682e5c4f88eaa129bffb16eb",
+      "name": "MedicalToMental Connection",
+      "agentID": "682e5b0188eaa129bffb161d",
+      "description": "This path activates when health discussions reveal emotional concerns or when the user expresses feelings about their health situation that would benefit from emotional support. It bridges the gap between physical and mental health concerns.",
+      "variableOrder": [],
+      "createdAt": "2025-05-21T23:05:51.000Z"
+    },
+    {
+      "id": "682e5c5888eaa129bffb16f0",
+      "name": "MedicalToTech Connection",
+      "agentID": "682e5b0188eaa129bffb161d",
+      "description": "This path activates when health discussions involve technology questions, such as health apps, online medical resources, telemedicine platforms, or health monitoring devices. It seamlessly connects health information with technology guidance.",
+      "variableOrder": [],
+      "createdAt": "2025-05-21T23:06:01.000Z"
+    },
+    {
+      "id": "682e5c6c88eaa129bffb16f9",
+      "name": "TechToMental Connection",
+      "agentID": "682e5b2588eaa129bffb1636",
+      "description": "This path activates when technology discussions reveal emotional frustrations or when users express feelings about technology that would benefit from emotional support. It addresses technology anxiety, digital overwhelm, or frustration with devices.",
+      "variableOrder": [],
+      "createdAt": "2025-05-21T23:06:21.000Z"
+    },
+    {
+      "id": "682e5c7488eaa129bffb16fa",
+      "name": "TechToMedical Connection",
+      "agentID": "682e5b2588eaa129bffb1636",
+      "description": "This path activates when technology discussions involve health questions, such as health apps, medical devices, fitness trackers, or online health resources. It connects technology assistance with health information seamlessly.",
+      "variableOrder": [],
+      "createdAt": "2025-05-21T23:06:28.000Z"
+    }
+  ],
+  "agentFunctionTools": [],
+  "agentIntegrationTools": [],
+  "agentPathToolVariables": [],
+  "apiTools": [],
+  "apiToolInputVariables": [],
+  "integrationTools": [],
+  "functions": [],
+  "functionPaths": [],
+  "functionVariables": [],
+  "project": {
+    "type": "chat",
+    "name": "Clari English",
+    "image": "https://cm4-production-assets.s3.amazonaws.com/1747868267829-20250518_1006_elegant-ai-agent_simple_compose_01jvj5q2zfesmrwcn1q4mkg3dx.png",
+    "teamID": "9zk6wrQYjb",
+    "members": [],
+    "platform": "webchat",
+    "_version": 1.2,
+    "linkType": "STRAIGHT",
+    "creatorID": 1628484,
+    "updatedBy": 1628484,
+    "platformData": {
+      "invocationName": "template project general"
+    },
+    "customThemes": [],
+    "aiAssistSettings": {
+      "aiPlayground": true
+    },
+    "privacy": "private",
+    "apiPrivacy": "public",
+    "_id": "682e5a3a88eaa129bffb1571",
+    "updatedAt": "2025-05-21T23:02:29.937Z",
+    "devVersion": "682e5a3a88eaa129bffb1572",
+    "liveVersion": "682e5a3a88eaa129bffb1573"
+  },
+  "_version": "1.2",
+  "secrets": [],
+  "variableStates": []
+}
