@@ -635,92 +635,91 @@
     <!-- Feedback Section -->
     <section id="feedback" class="feedback">
         <div class="container">
-            <h2>Help Us Improve</h2>
-            <p style="text-align: center; font-size: 1.2rem; margin-bottom: 2rem; color: #64748b;">
-                We're constantly working to make Clari AI better. Your feedback is invaluable!
-            </p>
-            <form class="feedback-form" onsubmit="submitFeedback(event)">
-                <div class="form-group">
-                    <label for="name">Your Name</label>
-                    <input type="text" id="name" name="name" required placeholder="Enter your name">
-                </div>
-                <div class="form-group">
-                    <label for="email">Email (Optional)</label>
-                    <input type="email" id="email" name="email" placeholder="your.email@example.com">
-                </div>
-                <div class="form-group">
-                    <label for="feedback">Your Feedback</label>
-                    <textarea id="feedback" name="feedback" required placeholder="Share your experience with Clari AI. What worked well? What could be improved? Any suggestions?"></textarea>
-                </div>
-                <button type="submit" class="submit-btn" id="submitBtn">Send Feedback</button>
-                <div class="success-message" id="successMessage">
-                    Thank you for your feedback!
-                </div>
-            </form>
+          <h2>Help Us Improve</h2>
+          <p style="text-align: center; font-size: 1.2rem; margin-bottom: 2rem; color: #64748b;">
+            We're constantly working to make Clari AI better. Your feedback is invaluable!
+          </p>
+          <form class="feedback-form" onsubmit="submitFeedback(event)">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" required placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+              <label for="email">Email (Optional)</label>
+              <input type="email" id="email" name="email" placeholder="your.email@example.com">
+            </div>
+            <div class="form-group">
+              <label for="feedback">Your Feedback</label>
+              <textarea id="feedback" name="feedback" required placeholder="Share your experience with Clari AI. What worked well? What could be improved? Any suggestions?"></textarea>
+            </div>
+            <button type="submit" class="submit-btn" id="submitBtn">Send Feedback</button>
+            <div class="success-message" id="successMessage">
+              Thank you for your feedback!
+            </div>
+            <div class="error-message" id="errorMessage">
+              Sorry, there was an error submitting your feedback. Please try again later.
+            </div>
+          </form>
         </div>
-    </section>
+  </section>
 
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 Clari AI. Built with passion for intelligent assistance. Work in progress - more amazing features coming soon!</p>
-        </div>
-    </footer>
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Clari AI. Built with passion for intelligent assistance. Work in progress - more amazing features coming soon!</p>
+    </div>
+  </footer>
 
-    <script type="text/javascript">
-        const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzrJfa7CFUoMIEJFWYbWjtxCd_RWcNgyG2q0HPxj_3DDUYHew_O2nIjKVr9xZAOIsM/exec';
-    
-        async function submitFeedback(event) {
-            event.preventDefault();
-            
-            const submitBtn = document.getElementById('submitBtn');
-            const successMessage = document.getElementById('successMessage');
-            const errorMessage = document.getElementById('errorMessage');
-    
-            // Hide both messages
-            successMessage.style.display = 'none';
-            errorMessage.style.display = 'none';
-    
-            submitBtn.disabled = true;
-            submitBtn.textContent = 'Sending...';
-    
-            const formData = new FormData(event.target);
-            const feedback = {
-                name: formData.get('name'),
-                email: formData.get('email') || 'Not provided',
-                feedback: formData.get('feedback'),
-                timestamp: new Date().toISOString(),
-                userAgent: navigator.userAgent,
-                url: window.location.href
-            };
-    
-            try {
-                const response = await fetch(GOOGLE_SCRIPT_URL, {
-                    method: 'POST',
-                    mode: 'cors',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify(feedback)
-                });
-    
-                const result = await response.json();
-                console.log('Feedback response:', result);
-            } catch (error) {
-                console.warn('Feedback failed:', error);
-            } finally {
-                // Show thank you message regardless of success
-                successMessage.textContent = "Thank you for your feedback!";
-                successMessage.style.display = 'block';
-                errorMessage.style.display = 'none';
-                submitBtn.disabled = false;
-                submitBtn.textContent = 'Send Feedback';
-                event.target.reset();
-    
-                setTimeout(() => {
-                    successMessage.style.display = 'none';
-                }, 5000);
-            }
-        }
-    </script>
+  <script type="text/javascript">
+    const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzrJfa7CFUoMIEJFWYbWjtxCd_RWcNgyG2q0HPxj_3DDUYHew_O2nIjKVr9xZAOIsM/exec';
 
+    async function submitFeedback(event) {
+      event.preventDefault();
+
+      const submitBtn = document.getElementById('submitBtn');
+      const successMessage = document.getElementById('successMessage');
+      const errorMessage = document.getElementById('errorMessage');
+
+      successMessage.style.display = 'none';
+      errorMessage.style.display = 'none';
+
+      submitBtn.disabled = true;
+      submitBtn.textContent = 'Sending...';
+
+      const formData = new FormData(event.target);
+      const feedback = {
+        name: formData.get('name'),
+        email: formData.get('email') || 'Not provided',
+        feedback: formData.get('feedback'),
+        timestamp: new Date().toISOString(),
+        userAgent: navigator.userAgent,
+        url: window.location.href
+      };
+
+      try {
+        const response = await fetch(GOOGLE_SCRIPT_URL, {
+          method: 'POST',
+          mode: 'no-cors', // Important: allows request to be sent even if response is blocked
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(feedback)
+        });
+      } catch (error) {
+        console.warn('Feedback failed:', error);
+      } finally {
+        successMessage.style.display = 'block';
+        errorMessage.style.display = 'none';
+        submitBtn.disabled = false;
+        submitBtn.textContent = 'Send Feedback';
+        event.target.reset();
+        setTimeout(() => {
+          successMessage.style.display = 'none';
+        }, 5000);
+      }
+    }
+
+    window.submitFeedback = submitFeedback;
+  </script>
 </body>
 </html>
